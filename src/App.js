@@ -7,7 +7,6 @@ import IosStarOutline from "react-ionicons/lib/IosStarOutline"
 function App() {
     const [rating, setRating] = useState(3.5);
 
-
     const changeRatingHandler = (value) => {
         setRating(value);
     };
